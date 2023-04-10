@@ -32,8 +32,12 @@ main {
     display: flex;
     width: 100vw;
     justify-content: space-between;
-    padding-top: 15vh;
-    margin-bottom: 5vh;
+    padding-top: 12vh;
+}
+
+li {
+    padding-bottom: 2vh;
+    list-style: none;
 }
 
 .burger-button {
@@ -77,11 +81,25 @@ main {
 }
 
 .each-video-card {
-    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.picture-video-card {
+    height: 30vh;
     width: 25vw ;
     border-radius: 20px;
 }
 
-li {
-    padding-bottom: 2vh;
+.view-time-card {
+    display: flex;
+    gap: 1em;
 }
+
+.grey-break {
+    width: 15vw;
+    height: 0.2vh;
+    background-color: rgb(215, 215, 215);
+}
+
