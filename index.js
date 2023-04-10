@@ -157,11 +157,55 @@ const mainSection = [
     id: 5,
     title: "Vidéos J'aime",
   },
-];
+    ];
+
+     const followSection = [
+       {
+         id: 1,
+         title: "Editeur1",
+       },
+       {
+         id: 2,
+         title: "Editeur2",
+       },
+       {
+         id: 3,
+         title: "Editeur3",
+       },
+       {
+         id: 4,
+         title: "Editeur4",
+       },
+       {
+         id: 5,
+         title: "Editeur5",
+       },
+       {
+         id: 6,
+         title: "Editeur6",
+       },
+       {
+         id: 7,
+         title: "Editeur7",
+       },
+       {
+         id: 8,
+         title: "Editeur8",
+       },
+       {
+         id: 9,
+         title: "Editeur9",
+       },
+       {
+         id: 10,
+         title: "Editeur10",
+       },
+     ];
 
 const myDiv = document.querySelector(".videos-container");
 const mainSectionUl = document.querySelector(".main-section-ul");
 const privateSectionUl = document.querySelector(".private-section-ul");
+const followSectionUl = document.querySelector(".follow-section-ul");
 
 
 videos.map((element) => {

@@ -97,9 +97,13 @@ li {
     gap: 1em;
 }
 
+
+.follow-title {
+    padding-left: 1em;
+}
+
 .grey-break {
     width: 15vw;
     height: 0.2vh;
     background-color: rgb(215, 215, 215);
 }
-
