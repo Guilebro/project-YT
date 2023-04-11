@@ -69,7 +69,6 @@ li {
 }
 
 .videos-container {
-    border: 1px solid red;
     width: 80%;
     height: 80vh;
     display: flex;
@@ -113,7 +112,9 @@ li {
     border-radius: 10px;
     border: 1px solid black;
     width: 35vw;
-    height: 35vh;
+    max-height: 35vh;
+    min-height: 10vh;
     position: absolute;
     overflow: scroll;
+    display: none;
 }

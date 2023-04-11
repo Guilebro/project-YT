@@ -229,19 +229,30 @@ mainSection.map((element) => {
 privateSection.map((element) => {
     privateSectionUl.innerHTML += `<li>${element.title}</li>`;
 });
+
+
 function allVideos(videos) {
   divResults.innerHTML = "";
   videos.map((element) => {
     divResults.innerHTML += `<ul><li>${element.title}</li></ul>`;});
-}
-; 
-allVideos(videos)
+}; 
+
+
 myInput.addEventListener("input", (e) => {
   let searchTerm = e.target.value;
   console.log(searchTerm, "ICI");
-  const filteredSearch = videos.filter((element) => element.title.toLowerCase().includes(searchTerm.toLowerCase()));
-  allVideos(filteredSearch);
-  
+  if (searchTerm != "") {
+    divResults.style.display = "block";
+    const filteredSearch = videos.filter((element) =>
+      element.title.toLowerCase().includes(searchTerm.toLowerCase())
+    );
+    allVideos(filteredSearch);
+     if (filteredSearch.length === 0) {
+       divResults.innerHTML += `<p>Aucun résultats<p>`;
+     }
+  } else {
+    divResults.style.display = "none";
+  };
 });
 
 
