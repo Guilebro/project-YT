@@ -223,6 +223,51 @@ const explorerSection = [
   },
 ];
 
+const filters = [
+  {
+    id: 1,
+    title: "Tous",
+  },
+  {
+    id: 2,
+    title: "Jeux vidéo",
+  },
+  {
+    id: 3,
+    title: "Musique",
+  },
+  {
+    id: 4,
+    title: "Guitare électriques",
+  },
+  {
+    id: 5,
+    title: "Mix",
+  },
+  {
+    id: 6,
+    title: "Jeux de plateaux",
+  },
+  {
+    id: 7,
+    title: "Cartes Magic",
+  },
+  {
+    id: 8,
+    title: "Warhammer 40K",
+  },
+
+  {
+    id: 9,
+    title: "Angular vs React",
+  },
+  {
+    id: 9,
+    title: "PHP",
+  },
+];
+  
+
 const myDiv = document.querySelector(".videos-container");
 const mainSectionUl = document.querySelector(".main-section-ul");
 const privateSectionUl = document.querySelector(".private-section-ul");
@@ -230,6 +275,7 @@ const followSectionUl = document.querySelector(".follow-section-ul");
 const explorerSectionUl = document.querySelector(".explorer-section-ul");
 const myInput = document.querySelector(".input-search");
 const divResults = document.querySelector(".results");
+const filterSection = document.querySelector(".section");
 
 videos.map((element) => {
   myDiv.innerHTML += `<div class="each-video-card">
@@ -257,6 +303,10 @@ followSection.map((element) => {
 
 explorerSection.map((element) => {
   explorerSectionUl.innerHTML += `<li class="space-lines">${element.title}</li>`
+});
+
+filters.map((element) => { 
+  filterSection.innerHTML += `<span class="filter-span">${element.title}</span>`;
 });
 
 function allVideos(videos) {
