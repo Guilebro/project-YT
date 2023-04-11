@@ -206,19 +206,21 @@ const myDiv = document.querySelector(".videos-container");
 const mainSectionUl = document.querySelector(".main-section-ul");
 const privateSectionUl = document.querySelector(".private-section-ul");
 const followSectionUl = document.querySelector(".follow-section-ul");
+const myInput = document.querySelector(".input-search");
+const divResults = document.querySelector(".results");
 
 
-videos.map((element) => {
+ videos.map((element) => {
     myDiv.innerHTML += `<div class="each-video-card">
                         <img class="picture-video-card" src="${element.picture}" alt="${element.id}"/>
                         <span>${element.title}</span>
                         <span>${element.editor}</span>
                         <div class="view-time-card">
                         <span>${element.view}</span>
-                        <span>${element.time }</span>
+                        <span>${element.time}</span>
                         </div>
                         </div>`;
-});
+  });
 
 mainSection.map((element) => {
     mainSectionUl.innerHTML += `<li>${element.title}</li>`;
@@ -227,3 +229,19 @@ mainSection.map((element) => {
 privateSection.map((element) => {
     privateSectionUl.innerHTML += `<li>${element.title}</li>`;
 });
+function allVideos(videos) {
+  divResults.innerHTML = "";
+  videos.map((element) => {
+    divResults.innerHTML += `<ul><li>${element.title}</li></ul>`;});
+}
+; 
+allVideos(videos)
+myInput.addEventListener("input", (e) => {
+  let searchTerm = e.target.value;
+  console.log(searchTerm, "ICI");
+  const filteredSearch = videos.filter((element) => element.title.toLowerCase().includes(searchTerm.toLowerCase()));
+  allVideos(filteredSearch);
+  
+});
+
+
