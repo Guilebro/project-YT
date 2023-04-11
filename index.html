@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <title>YT Project</title>
 </head>
 <body>
@@ -15,22 +18,26 @@
             </div>
             <div class="input-results-container">
                 <input class="input-search" type="search" placeholder="Rechercher">
-                 <div class="results"></div>
+                <div class="results"></div>
             </div>
-            <div class="account-container">live , notif, compte</div>
+            <div class="account-container">
+                <img class="account-logo" src="./assets/camera.png" alt="camera">
+                <img class="account-logo" src="./assets/bell.png" alt="bell">
+                <img class="account-logo-user" src="./assets/user.png" alt="user">
+            </div>
         </div>
     </header>
     <main>
         <nav>
             <ul class="main-section-ul"></ul>
-            <div class="grey-break"></div>
             <ul class="private-section-ul"></ul>
-            <div class="grey-break"></div>
             <span class="follow-title">Abonnements</span>
+            <ul class="follow-section-ul"></ul>
+            <span class="explorer-title">Explorer</span>
+            <ul class="explorer-section-ul"></ul>
         </nav>
             <div class="videos-container"></div>
     </main>
-    <footer></footer>
     <script src="index.js"></script>
 </body>
 </html>

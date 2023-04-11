@@ -7,7 +7,7 @@ body {
     text-decoration: none;   
     color: black;
     overscroll-behavior: none;
-}
+    font-family: 'Roboto', sans-serif;}
 
 header {
     display: flex;
@@ -19,9 +19,7 @@ header {
 }
 
 nav {
-    display: flex;
-    flex-direction: column;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 15vw;
     height: 80vh;
     overflow: scroll;
@@ -36,8 +34,36 @@ main {
 }
 
 li {
-    padding-bottom: 2vh;
     list-style: none;
+    padding-bottom: 1.5em;
+    font-size: 14px;
+}
+
+ul {
+    margin-right: 0.8em;
+}
+
+.div-display {
+    padding-top: 1em;
+}
+
+.span-display {
+    padding-left: 1em;
+    font-weight: bold;
+}
+
+.account-logo {
+    width: 24px;
+    height: 24px;
+}
+
+.account-logo-user {
+    width: 35px;
+    height: 35px;
+}
+
+.main-section-ul, .private-section-ul, .follow-section-ul {
+    border-bottom: 1px solid rgb(168, 165, 165);
 }
 
 .burger-button {
@@ -66,6 +92,10 @@ li {
 .account-container {
     width: 10vw;
     height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1.5em;
 }
 
 .videos-container {
@@ -74,7 +104,7 @@ li {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-    gap: 1em;
+    gap: 1.5em;
     overflow: scroll;
     margin-right: 1vw;
 }
@@ -97,8 +127,23 @@ li {
 }
 
 
-.follow-title {
+.follow-title, .explorer-title {
     padding-left: 1em;
+    font-size: 1em;
+}
+
+.video-title {
+    font-size: 1em;
+    font-weight: bold;
+    padding-top: 1em;
+    padding-bottom: 0.3em;
+}
+
+.editor-view-time-style {
+    font-size: 14px;
+    padding-bottom: 0.1em;
+    color: rgb(131, 128, 128);
+
 }
 
 .grey-break {
@@ -113,8 +158,9 @@ li {
     border: 1px solid black;
     width: 35vw;
     max-height: 35vh;
-    min-height: 10vh;
+    min-height: 5vh;
     position: absolute;
     overflow: scroll;
     display: none;
+    padding-bottom: 1em;
 }
