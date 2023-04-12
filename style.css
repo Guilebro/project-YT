@@ -1,190 +1,189 @@
-
-
 body {
-    margin: 0;
-    padding: 0;
-    border: 0;     
-    text-decoration: none;   
-    color: black;
-    overscroll-behavior: none;
-    font-family: 'Roboto', sans-serif;}
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-decoration: none;
+  color: black;
+  overscroll-behavior: none;
+  font-family: "Roboto", sans-serif;
+}
 
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    z-index: 2;
-    width: 100vw;
-    background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 2;
+  width: 100vw;
+  background-color: white;
 }
 
 nav {
-    /* border: 1px solid black; */
-    width: 15vw;
-    height: 80vh;
-    overflow: scroll;
-    margin-left: 1vw;
+  /* border: 1px solid black; */
+  width: 15vw;
+  height: 80vh;
+  overflow: scroll;
+  margin-left: 1vw;
 }
 
 main {
-    display: flex;
-    width: 100vw;
-    justify-content: space-between;
-    padding-top: 12vh; 
+  display: flex;
+  width: 100vw;
+  justify-content: space-between;
+  padding-top: 12vh;
 }
 
 li {
-    list-style: none;
-    padding-bottom: 1.5em;
-    font-size: 14px;
+  list-style: none;
+  padding-bottom: 1.5em;
+  font-size: 14px;
 }
 
 ul {
-    margin-right: 0.8em;
+  margin-right: 0.8em;
 }
 
 .section {
-    display: flex;
-    background-color: white;
-    padding-top: 5em;
-    padding-bottom: 1em;
-    width: 80%;
-    margin-left: 18%;
-    position: fixed;
-    z-index: 1;
+  overflow: scroll;
+  gap: 1em;
+  display: flex;
+  background-color: white;
+  padding-top: 5em;
+  padding-bottom: 1em;
+  width: 80%;
+  margin-left: 18%;
+  position: fixed;
+  z-index: 1;
 }
 
-
 .div-display {
-    padding-top: 1em;
+  padding-top: 1em;
 }
 
 .span-display {
-    padding-left: 1em;
-    font-weight: bold;
+  padding-left: 1em;
+  font-weight: bold;
 }
 
 .account-logo {
-    width: 24px;
-    height: 24px;
+  width: 24px;
+  height: 24px;
 }
 
 .account-logo-user {
-    width: 35px;
-    height: 35px;
+  width: 35px;
+  height: 35px;
 }
 
-.main-section-ul, .private-section-ul, .follow-section-ul {
-    border-bottom: 1px solid rgb(168, 165, 165);
+.main-section-ul,
+.private-section-ul,
+.follow-section-ul {
+  border-bottom: 1px solid rgb(168, 165, 165);
 }
 
 .burger-button {
-    height: 5vh;
-    width: 2vw;
+  height: 5vh;
+  width: 2vw;
 }
 
 .logo-youtube {
-    width: 8vw;
+  width: 8vw;
 }
 
 .input-search {
-    width: 35vw;
-    height: 5vh;
-    border-radius: 50px;
-    padding: 1em;
+  width: 35vw;
+  height: 5vh;
+  border-radius: 50px;
+  padding: 1em;
 }
 
 .logo-burger-container {
-    width: 15vw;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+  width: 15vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .account-container {
-    width: 10vw;
-    height: 100%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 1.5em;
+  width: 10vw;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1.5em;
 }
 
 .videos-container {
-    width: 80%;
-    height: 80vh;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    gap: 1.5em;
-    overflow: scroll;
-    margin-right: 1vw;
-    padding-top: 12vh;
+  width: 80%;
+  height: 80vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 1.5em;
+  overflow: scroll;
+  margin-right: 1vw;
+  padding-top: 12vh;
 }
 
 .each-video-card {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
-
 .picture-video-card {
-    height: 30vh;
-    width: 25vw ;
-    border-radius: 20px;
+  height: 30vh;
+  width: 25vw;
+  border-radius: 20px;
 }
 
 .view-time-card {
-    display: flex;
-    gap: 1em;
+  display: flex;
+  gap: 1em;
 }
 
-
-.follow-title, .explorer-title {
-    padding-left: 1em;
-    font-size: 1em;
+.follow-title,
+.explorer-title {
+  padding-left: 1em;
+  font-size: 1em;
 }
 
 .video-title {
-    font-size: 1em;
-    font-weight: bold;
-    padding-top: 1em;
-    padding-bottom: 0.3em;
+  font-size: 1em;
+  font-weight: bold;
+  padding-top: 1em;
+  padding-bottom: 0.3em;
 }
 
 .editor-view-time-style {
-    font-size: 14px;
-    padding-bottom: 0.1em;
-    color: rgb(131, 128, 128);
-
+  font-size: 14px;
+  padding-bottom: 0.1em;
+  color: rgb(131, 128, 128);
 }
 
 .grey-break {
-    width: 15vw;
-    height: 0.2vh;
-    background-color: rgb(215, 215, 215);
+  width: 15vw;
+  height: 0.2vh;
+  background-color: rgb(215, 215, 215);
 }
 
 .results {
-    background-color: white;
-    border-radius: 10px;
-    border: 1px solid black;
-    width: 35vw;
-    max-height: 32vh;
-    min-height: 5vh;
-    position: absolute;
-    overflow: scroll;
-    display: none;
-    padding-bottom: 1em;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid black;
+  width: 35vw;
+  max-height: 32vh;
+  min-height: 5vh;
+  position: absolute;
+  overflow: scroll;
+  display: none;
+  padding-bottom: 1em;
 }
 
 .filter-span {
-    width: fit-content;
-    font-size: 14px;
-    padding: 0.5em;
-    margin-right: 20px;
-    border-radius: 10px;
-    background-color:rgb(246, 244, 244);
+  text-align: center;
+  flex-grow: 1;
+  font-size: 14px;
+  padding: 0.5em;
+  border-radius: 10px;
+  background-color: rgb(246, 244, 244);
 }
-
