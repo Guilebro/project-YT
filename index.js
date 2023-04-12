@@ -280,8 +280,8 @@ const chipsFilterSection = [
     style: "filter-span",
   },
   {
-    id: 9,
-    title: "PHP",
+    id: 10,
+    title: "l'UX ça sert à rien",
     style: "filter-span",
   },
 ];

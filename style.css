@@ -19,18 +19,18 @@ header {
 }
 
 nav {
-  /* border: 1px solid black; */
   width: 15vw;
   height: 80vh;
   overflow: scroll;
   margin-left: 1vw;
+  padding-top: 2vh;
 }
 
 main {
   display: flex;
   width: 100vw;
   justify-content: space-between;
-  padding-top: 12vh;
+  padding-top: 10vh;
 }
 
 li {
@@ -44,16 +44,15 @@ ul {
 }
 
 .section {
-  overflow: scroll;
   gap: 1em;
   display: flex;
+  justify-content: flex-start;
   background-color: white;
-  padding-top: 5em;
-  padding-bottom: 1em;
-  width: 80%;
-  margin-left: 18%;
+  width: 85%;
+  padding: 1em;
   position: fixed;
   z-index: 1;
+  overflow: scroll;
 }
 
 .div-display {
@@ -113,16 +112,20 @@ ul {
   gap: 1.5em;
 }
 
+.wrap-videos-section {
+  height: 85vh;
+  width: 100vw;
+  overflow: scroll;
+}
+
 .videos-container {
-  width: 80%;
-  height: 80vh;
+  width: 85vw;
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: center;
   gap: 1.5em;
-  overflow: scroll;
-  margin-right: 1vw;
-  padding-top: 12vh;
+  padding-top: 10vh;
+  margin: auto;
 }
 
 .each-video-card {
@@ -181,7 +184,6 @@ ul {
 
 .filter-span {
   text-align: center;
-  flex-grow: 1;
   font-size: 14px;
   padding: 0.5em;
   border-radius: 10px;
