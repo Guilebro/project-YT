@@ -35,12 +35,12 @@ main {
 
 li {
   list-style: none;
-  padding-bottom: 1.5em;
   font-size: 14px;
 }
 
 ul {
-  margin-right: 0.8em;
+  padding-inline-start: 0;
+  padding-bottom: 0.5em;
 }
 
 .div-display {
@@ -143,6 +143,12 @@ ul {
   border-radius: 20px;
 }
 
+.picture-video-card:hover {
+  border-radius: 0px;
+  transition: 550ms;
+  transform: scale(1.01);
+}
+
 .view-time-card {
   display: flex;
   gap: 1em;
@@ -193,4 +199,21 @@ ul {
   padding: 0.5em;
   border-radius: 10px;
   background-color: rgb(246, 244, 244);
+} 
+
+.filter-span:hover {
+  background-color: rgb(232, 231, 231);
+}
+
+.nav-li {
+  height: 6vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 25%;
+}
+
+  .nav-li:hover {
+  background-color:rgb(246, 244, 244);
+  border-radius: 10px;
 }

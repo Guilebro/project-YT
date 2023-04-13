@@ -135,16 +135,19 @@ const navMainLinks = [
     id: 1,
     title: "Accueil",
     icon: "./assets/nav-icon.png",
+    style: "nav-li",
   },
   {
     id: 2,
     title: "Shorts",
     icon: "./assets/nav-icon.png",
+    style: "nav-li",
   },
   {
     id: 3,
     title: "Abonnements",
     icon: "./assets/nav-icon.png",
+    style: "nav-li",
   },
 ];
 
@@ -153,26 +156,31 @@ const navUserCurrentLinks = [
     id: 1,
     title: "Bibliothèque",
     icon: "./assets/nav-icon.png",
+    style: "nav-li",
   },
   {
     id: 2,
     title: "Historique",
     icon: "./assets/nav-icon.png",
+    style: "nav-li",
   },
   {
     id: 3,
     title: "Vos vidéos",
     icon: "./assets/nav-icon.png",
+    style: "nav-li",
   },
   {
     id: 4,
     title: "À regarder plus tard",
     icon: "./assets/nav-icon.png",
+    style: "nav-li",
   },
   {
     id: 5,
     title: "Vidéos J'aime",
     icon: "./assets/nav-icon.png",
+    style: "nav-li",
   },
 ];
 
@@ -181,6 +189,7 @@ for (let i = 1; i < 11; i++) {
   navSubscriptionLinks.push({
     id: i,
     title: "Editeur" + i,
+    style: "nav-li",
   });
 }
 
@@ -189,46 +198,55 @@ const navExplorerLinks = [
     id: 1,
     title: "Tendances",
     icon: "./assets/nav-icon.png",
+    style: "nav-li",
   },
   {
     id: 2,
     title: "Musique",
     icon: "./assets/nav-icon.png",
+    style: "nav-li",
   },
   {
     id: 3,
     title: "Films et TV",
     icon: "./assets/nav-icon.png",
+    style: "nav-li",
   },
   {
     id: 4,
     title: "Direct",
     icon: "./assets/nav-icon.png",
+    style: "nav-li",
   },
   {
     id: 5,
     title: "Jeux vidéos",
     icon: "./assets/nav-icon.png",
+    style: "nav-li",
   },
   {
     id: 6,
     title: "Actualités",
     icon: "./assets/nav-icon.png",
+    style: "nav-li",
   },
   {
     id: 7,
     title: "Sport",
     icon: "./assets/nav-icon.png",
+    style: "nav-li",
   },
   {
     id: 8,
     title: "Savoirs & Cultures",
     icon: "./assets/nav-icon.png",
+    style: "nav-li",
   },
   {
     id: 9,
     title: "Mode et beauté",
     icon: "./assets/nav-icon.png",
+    style: "nav-li",
   },
 ];
 
@@ -280,37 +298,37 @@ const chipsFilterSection = [
     style: "filter-span",
   },
   {
-    id: 10,
+    id: 11,
     title: "l'UX ça sert à rien",
     style: "filter-span",
   },
   {
-    id: 10,
+    id: 12,
     title: "l'UX ça sert à rien",
     style: "filter-span",
   },
   {
-    id: 10,
+    id: 13,
     title: "l'UX ça sert à rien",
     style: "filter-span",
   },
   {
-    id: 10,
+    id: 14,
     title: "l'UX ça sert à rien",
     style: "filter-span",
   },
   {
-    id: 10,
+    id: 15,
     title: "l'UX ça sert à rien",
     style: "filter-span",
   },
   {
-    id: 10,
+    id: 16,
     title: "l'UX ça sert à rien",
     style: "filter-span",
   },
   {
-    id: 10,
+    id: 17,
     title: "l'UX ça sert à rien",
     style: "filter-span",
   },
