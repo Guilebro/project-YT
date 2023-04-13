@@ -339,6 +339,7 @@ const navLinkList = [
   },
 ];
 
+
 videos.map((element) => {
   myDiv.innerHTML += `<div class="each-video-card">
                         <img class="picture-video-card" src="${element.picture}" alt="${element.id}"/>
