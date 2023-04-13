@@ -284,6 +284,36 @@ const chipsFilterSection = [
     title: "l'UX ça sert à rien",
     style: "filter-span",
   },
+  {
+    id: 10,
+    title: "l'UX ça sert à rien",
+    style: "filter-span",
+  },
+  {
+    id: 10,
+    title: "l'UX ça sert à rien",
+    style: "filter-span",
+  },
+  {
+    id: 10,
+    title: "l'UX ça sert à rien",
+    style: "filter-span",
+  },
+  {
+    id: 10,
+    title: "l'UX ça sert à rien",
+    style: "filter-span",
+  },
+  {
+    id: 10,
+    title: "l'UX ça sert à rien",
+    style: "filter-span",
+  },
+  {
+    id: 10,
+    title: "l'UX ça sert à rien",
+    style: "filter-span",
+  },
 ];
 
 const navLinkList = [
@@ -334,7 +364,7 @@ function allVideos(videos) {
   videos.map((element) => {
     divResults.innerHTML += `<div class="div-display"><span class="span-display">🔍\xa0\xa0\xa0${element.title}</span></div>`;
   });
-}
+};
 
 myInput.addEventListener("input", (e) => {
   let searchTerm = e.target.value;
